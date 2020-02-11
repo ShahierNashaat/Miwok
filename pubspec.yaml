@@ -1,0 +1,140 @@
+name: miwok
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  path_provider: ^1.6.0
+  audioplayers: ^0.14.0
+  assets_audio_player: ^1.0.1
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/color_black.png
+    - images/color_brown.png
+    - images/color_dusty_yellow.png
+    - images/color_gray.png
+    - images/color_green.png
+    - images/color_mustard_yellow.png
+    - images/color_red.png
+    - images/color_white.png
+    - images/family_daughter.png
+    - images/family_father.png
+    - images/family_grandfather.png
+    - images/family_grandmother.png
+    - images/family_mother.png
+    - images/family_older_brother.png
+    - images/family_older_sister.png
+    - images/family_son.png
+    - images/family_younger_brother.png
+    - images/family_younger_sister.png
+    - images/number_eight.png
+    - images/number_five.png
+    - images/number_four.png
+    - images/number_nine.png
+    - images/number_one.png
+    - images/number_seven.png
+    - images/number_six.png
+    - images/number_ten.png
+    - images/number_three.png
+    - images/number_two.png
+    - images/play_arrow.png
+    - number_one.mp3
+    - number_two.mp3
+    - number_three.mp3
+    - number_four.mp3
+    - number_five.mp3
+    - number_six.mp3
+    - number_seven.mp3
+    - number_eight.mp3
+    - number_nine.mp3
+    - number_ten.mp3
+    - family_father.mp3
+    - family_mother.mp3
+    - family_son.mp3
+    - family_daughter.mp3
+    - family_older_brother.mp3
+    - family_younger_brother.mp3
+    - family_older_sister.mp3
+    - family_younger_sister.mp3
+    - family_grandmother.mp3
+    - family_grandfather.mp3
+    - color_red.mp3
+    - color_green.mp3
+    - color_brown.mp3
+    - color_gray.mp3
+    - color_black.mp3
+    - color_white.mp3
+    - color_dusty_yellow.mp3
+    - color_mustard_yellow.mp3
+    - phrase_where_are_you_going.mp3
+    - phrase_what_is_your_name.mp3
+    - phrase_my_name_is.mp3
+    - phrase_how_are_you_feeling.mp3
+    - phrase_im_feeling_good.mp3
+    - phrase_are_you_coming.mp3
+    - phrase_yes_im_coming.mp3
+    - phrase_im_coming.mp3
+    - phrase_lets_go.mp3
+    - phrase_come_here.mp3
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
